@@ -61,8 +61,8 @@ jobs:
           docker push ${{ secrets.DOCKER_USERNAME }}/register-server:${{github.run_id}}
           docker push ${{ secrets.DOCKER_USERNAME }}/register-server:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/api-gateway:${{github.run_id}}
-          docker push ${{ secrets.DOCKER_USERNAME }}/api-gateway:lastet
+          docker push ${{ secrets.DOCKER_USERNAME }}/api-gateway:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/cambio-service:${{github.run_id}}
-          docker push ${{ secrets.DOCKER_USERNAME }}/cambio-service:lastet
+          docker push ${{ secrets.DOCKER_USERNAME }}/cambio-service:latest
           docker push ${{ secrets.DOCKER_USERNAME }}/book-service:${{github.run_id}}
           docker push ${{ secrets.DOCKER_USERNAME }}/book-service:latest
